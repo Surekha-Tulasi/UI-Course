@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+.float {
+  float: left;
+}
+.clearfix {
+  clear: both;
+  display: table;
+}
+.bg {
+  background-image: url("http://www.appqube.in/images/bannerimagessample/Appqube%20Banner1.jpg");
+  width: 100%;
+  height: 100vh;
+
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0;
+
+}
+.logo {
+  width: 60%;
+  height: 60px;
+    
+ 
+}
+.logo img {
+  width: 50%;
+  height: 90px;
+  background-color: rgb(5, 133, 137);
+  color: black;  
+  
+}
+nav {
+  width: 40%;
+  text-align: center;
+  background-color: rgb(5, 133, 137);
+  height: 100px;
+   
+
+}
+nav ui li {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  text-align: start;
+  margin-top: 20px;
+  width: 90px;
+  height: 50%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+    
+
+}
+li:hover {
+  background-color: rgba(255, 255, 255, 0.383);
+}
+
+.Clients {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+
+}
+
+.clientspart h1 {
+  color: rgb(5, 133, 137);
+  padding-bottom: 20px;
+}
+.clientsimgs {
+  width: 100%;
+}
+.About {
+  width: 80%;
+  margin: auto;
+
+  padding: 10px;
+}
+.About h1:hover{
+  background-color: beige;
+}
+
+.Aboutimg {
+  width: 70%;
+  height: 70%;
+  padding-top: 10px;
+  margin: auto;
+  
+}
+.Aboutimg img {
+  width: 90%;
+  
+}
+.Aboutus {
+  width: 30%;
+  float: left;
+  font-size: 17px;
+  height: 100%;
+}
+.Services {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(100, 160, 9, 0.532);
+  text-align: center;
+  margin: auto;
+}
+.topic {
+  width: 80%;
+  margin-left: 100px;
+}
+.servicescontent {
+  width: 33%;
+  margin: auto;
+  padding: 10px;
+}
+.Terminals {
+  width: 100%;
+  background-color: #ba8c63;
+  margin-top: 15px;
+}
+.Terminals .Terminalsimg {
+  width: 20%;
+  margin-left: 300px;
+}
+.Terminalsimg img {
+  width: 40%;
+  padding: 10px;
+  border-radius: 35px 35px 35px 35px;
+}
+.Terminalscontent {
+  width: 50%;
+  font-size: 18px;
+  margin: 0%;
+  text-align: left;
+}
+.Reach {
+  width: 100%;
+  background-color: skyblue;
+}
+.Reach .Reachus {
+  width: 80%;
+
+  margin-left: 125px;
+
+  float: left;
+}
+.Reachus .fb,
+.Contact,
+.msg {
+  width: 33.3;
+  float: left;
+}
+.Reachus .msg input {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+}
+button {
+  background-color: aquamarine;
+  width: 100px;
+  align-items: center;
+}
+.Contact {
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+}
+.Contact p {
+  text-align: center;
+  font-size: 14px;
+}
+.fb {
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+}
+.msg {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  padding-top: 20px;
+  font-size: 25px;
+}
